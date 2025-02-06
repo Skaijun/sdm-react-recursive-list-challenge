@@ -1,0 +1,21 @@
+.topics {
+  display: block;
+  text-align: left;
+}
+
+.topics ul {
+  font-weight: 700;
+  padding: 5px 35px;
+  cursor: not-allowed;
+  list-style-type: none;
+  color: rgb(255, 45, 8)
+}
+
+.topics ul.enabled {
+  cursor: pointer;
+  color: greenyellow
+}
+
+.number-of-topics {
+  margin-left: 5px;
+}
